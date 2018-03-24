@@ -1,0 +1,50 @@
+
+
+
+.topLoginForm{
+    margin-top:150px;
+}
+
+.top-buffer {
+    margin-top:150px;
+}
+
+.topMain{
+    margin-top: -20px;
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+    margin-right: -21px; /* 20px padding + 1px border */
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+.nav-sidebar > li > a {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.nav-sidebar > .active > a {
+    color: #fff;
+    background-color: #428bca;
+
+}
+.navbar-static-top{
+    border-radius:0
+}
+
+.addForm{
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+}
+
+.modal-content{
+    width: 500px;
+    margin-left: 100px;
+}
+
+.modal-body{
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
