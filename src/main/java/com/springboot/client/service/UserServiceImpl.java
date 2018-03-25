@@ -2,6 +2,8 @@ package com.springboot.client.service;
 
 import com.springboot.client.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -32,7 +34,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public void addUser(User user) {
         String url = "http://localhost:8080/admin";
-        restTemplate.postForObject(url, new User(),List.class);
+        restTemplate.postForObject(url, user, User.class);
     }
 
     @Override
